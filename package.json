@@ -1,0 +1,35 @@
+{
+  "name": "@modern-dev/namegen",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/cjs/index.js",
+  "module": "lib/es6/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npm run build-cjs && npm run build-es6",
+    "build-cjs": "tsc --module commonjs --outdir ./lib/cjs",
+    "build-es6": "tsc --module es6 --outDir ./lib/es6",
+    "lint": "eslint ./src/**",
+    "pub": "npm run build && npm publish --access public"
+  },
+  "author": "Bohdan Shtepan <bohdan@modern-dev.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-dev/namegen.git"
+  },
+  "keywords": [
+    "random",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/modern-dev/namegen/issues"
+  },
+  "homepage": "https://github.com/modern-dev/namgen#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "typescript": "^3.7.2"
+  }
+}
