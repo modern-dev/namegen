@@ -1,10 +1,11 @@
 {
   "name": "@modern-dev/namegen",
   "version": "0.1.0",
-  "description": "",
+  "description": "Docker's like random name generator",
   "main": "lib/cjs/index.js",
   "module": "lib/es6/index.js",
-  "types": "lib/index.d.ts",
+  "typings": "lib/cjs/index.d.ts",
+  "types": "lib/cjs/index.d.ts",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6",
     "build-cjs": "tsc --module commonjs --outdir ./lib/cjs",
