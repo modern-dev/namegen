@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/modern-dev/namegen.svg?branch=master)](https://travis-ci.org/modern-dev/namegen)
+[![codecov](https://codecov.io/gh/modern-dev/namegen/branch/master/graph/badge.svg)](https://codecov.io/gh/modern-dev/namegen)
 ![npm](https://img.shields.io/npm/v/@modern-dev/namegen)
 ![NPM](https://img.shields.io/npm/l/@modern-dev/namegen)
 
@@ -23,7 +25,7 @@ console.log(name); // optimistic_hoyle
 
 [Licensed under the MIT license.](https://github.com/modern-dev/namegen/blob/master/LICENSE)
 
-Copyright (c) 2019 Bohdan Shtepan
+Copyright (c) 2020 Bohdan Shtepan
 
 ---
 

@@ -1,8 +1,8 @@
 /*!
- * namegen
+ * namegen - Docker's like random name generator
  * https://github.com/modern-dev/namegen
  *
- * Copyright (c) 2019 Bohdan Shtepan
+ * Copyright (c) 2020 Bohdan Shtepan
  * Licensed under the MIT license.
  */
 
@@ -254,7 +254,7 @@ const names: Array<string> = [
 const getRandomArbitrary = (min: number, max: number): number => Math.random() * (max - min) + min;
 
 /**
- *
+ * Returns a random Docker's like name.
  */
 export const getRandomName = (): string  => {
   const left = adjectives[getRandomArbitrary(0, adjectives.length)];
